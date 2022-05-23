@@ -85,6 +85,17 @@ body {
     background: #0f0240;
 }
 
+#lottie {
+    display: block;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+    text-align: center;
+    opacity: 1;
+    position: relative;
+    height: 100vh;
+    background-size: contain;
+}
+
 h1,
 h2,
 h3,
@@ -851,13 +862,6 @@ ol {
     z-index: 2;
     display: inline-block;
     vertical-align: top;
-}
-
-.main-ilustration {
-    position: relative;
-    background: url(../img/silk-nodes-explainer.png) no-repeat center 65%;
-    height: 100vh;
-    background-size: contain;
 }
 
 .main-ilustration-4 {
